@@ -1,79 +1,822 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CARAVEL - ERC Consolidator Grant</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: "Source Sans 3", sans-serif;
-    background: #0f2240;
-    color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 2rem;
-    text-align: center;
-    hyphens: none;
-    -webkit-hyphens: none;
-    word-break: keep-all;
-  }
-  .logo { width: 340px; max-width: 80vw; margin-bottom: 2.5rem; }
-  .badge {
-    font-size: 0.72rem; font-weight: 600; letter-spacing: 0.18em;
-    text-transform: uppercase; color: #c8a84b; margin-bottom: 2rem;
-  }
-  .divider { width: 40px; height: 1px; background: #c8a84b; margin: 0 auto 2.5rem; opacity: 0.5; }
-  .description {
-    max-width: 560px; font-size: 1rem; font-weight: 300;
-    color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 3rem;
-  }
-  .meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 2.5rem; margin-bottom: 4rem; }
-  .meta-item .label {
-    font-size: 0.65rem; font-weight: 600; letter-spacing: 0.15em;
-    text-transform: uppercase; color: #c8a84b; margin-bottom: 0.2rem;
-  }
-  .meta-item .value { font-size: 0.88rem; color: rgba(255,255,255,0.75); }
-  footer {
-    border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;
-    max-width: 560px; font-size: 0.75rem; color: rgba(255,255,255,0.3); line-height: 1.7;
-  }
-</style>
+  <meta charset="utf-8">
+<!-- Primary Meta Tags -->
+<title> Home </title>
+<meta name="title" content=" Home ">
+<meta name="description" content="
+         CARAVEL develops reliable AI methods to extract, model and analyse the brain vessel tree across multiple imaging scales.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content=" / ">
+<meta property="og:title" content=" Home ">
+<meta property="og:description" content="
+    CARAVEL develops reliable AI methods to extract, model and analyse the brain vessel tree across multiple imaging scales.">
+
+<meta property="og:image" content="/assets/img/logo_og.png" />
+
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="/">
+<meta property="twitter:title" content=" Home ">
+<meta property="twitter:description" content="
+    CARAVEL develops reliable AI methods to extract, model and analyse the brain vessel tree across multiple imaging scales.">
+
+<meta property="twitter:image" content="/assets/img/logo_og.png" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Stylesheets-->
+  <link rel="shortcut icon" href="/assets/img/brain-icon.png" />
+<link rel="stylesheet" href="/assets/css/plugins.css">
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+
+
+
+<!-- custom color page wise-->
+<link rel="stylesheet" type="text/css" href="/assets/css/colors/grape.css">
+
+
+
+
+
+<!-- Custom Font Scheme Page Wise-->
+<link rel="preload" type="text/css" href="/assets/css/fonts/space.css" onload="this.rel='stylesheet'">
+
+
+
+
+  
 </head>
-<body>
-  <img class="logo" src="caravel_logo_white.png" alt="CARAVEL">
-  <div class="badge">ERC Consolidator Grant - Grant No. 101171357</div>
-  <div class="divider"></div>
-  <p class="description">
-    CARAVEL aims to transform the study of the brain vessel tree by devising a novel
-    methodological framework to extract, model and analyse brain vasculature from
-    multimodal neurovascular images, enabling the creation of the first
-    multiresolution atlas of neurovascular ageing.
-  </p>
-  <div class="meta">
-    <div class="meta-item">
-      <div class="label">Principal Investigator</div>
-      <div class="value">Maria A. Zuluaga</div>
+<body class="">
+  <div class="content-wrapper">
+<header class="w-100">
+
+<div class="news-banner text-white fw-bold fs-15 mb-2 position-relative" style="z-index: 1;">
+  <div class="container py-2 d-flex align-items-center justify-content-center flex-wrap gap-2 text-center">
+    
+    <span class="badge rounded-pill news-banner-badge">NEW</span>
+    
+    <p class="mb-0">
+      LATEST NEWS - CARAVEL paper accepted at MICCAI 2026
+      
+      <a href="/news/caravel-paper-accepted-miccai-2026/" class="news-banner-link hover d-inline-flex align-items-center">Read more <i class="uil uil-arrow-right fs-16"></i></a>
+      
+    </p>
+  </div>
+  <!-- /.container -->
+</div>
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-bg-light">
+  
+    <div class="container flex-lg-row flex-nowrap align-items-center">
+  
+    <div class="navbar-brand w-100">
+      <a href="/">
+        
+          <img src="/assets/img/caravel_logo_blue.png" srcset="/assets/img/caravel_logo_blue.png 2x" alt="" />
+        
+      </a>
     </div>
-    <div class="meta-item">
-      <div class="label">Host Institution</div>
-      <div class="value">EURECOM, Sophia Antipolis, France</div>
+    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+      <div class="offcanvas-header d-lg-none">
+        <a href="/" class="offcanvas-brand">
+          <img src="/assets/img/caravel_logo_blue.png" alt="CARAVEL" />
+        </a>
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+        
+          <!-- One Page Navigation -->
+          <ul class="navbar-nav">
+  
+  <li class="nav-item">
+    
+    <a class="nav-link scroll" href="#news">News</a>
+    
+  </li>
+  
+  <li class="nav-item">
+    
+    <a class="nav-link scroll" href="#research">Research</a>
+    
+  </li>
+  
+  <li class="nav-item">
+    
+    <a class="nav-link scroll" href="#publications">Publications</a>
+    
+  </li>
+  
+  <li class="nav-item">
+    
+    <a class="nav-link scroll" href="#team">Team</a>
+    
+  </li>
+  
+  <li class="nav-item">
+    
+    <a class="nav-link scroll" href="#contacts">Contacts</a>
+    
+  </li>
+  
+</ul>
+
+        
+
+        <div class="offcanvas-footer d-lg-none">
+          <div class="offcanvas-contact">
+            <a href="mailto:maria.zuluaga@eurecom.fr" class="offcanvas-contact-item">
+              <i class="uil uil-envelope"></i> maria.zuluaga@eurecom.fr
+            </a>
+            <span class="offcanvas-contact-item">
+              <i class="uil uil-location-pin-alt"></i> 450 Route des Chappes - 06410 Biot, France
+            </span>
+            <nav class="nav social offcanvas-social mt-4">
+              
+                <a href="#"><i class="uil uil-globe"></i></a>
+              
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              
+                <a href="#"><i class="uil uil-graduation-cap"></i></a>
+              
+            </nav>
+          </div>
+        </div>
+        <!-- /.offcanvas-footer -->
+      </div>
+      <!-- /.offcanvas-body -->
     </div>
-    <div class="meta-item">
-      <div class="label">Programme</div>
-      <div class="value">Horizon Europe</div>
+    <!-- /.navbar-collapse -->
+    
+    <div class="navbar-other d-flex ms-auto">
+      <ul class="navbar-nav flex-row align-items-center ms-auto">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item d-lg-none">
+          <button class="hamburger offcanvas-nav-btn"><span></span></button>
+        </li>
+      </ul>
+    </div>
+  
+    </div>
+    <!-- /.container -->
+  
+</nav>
+<!-- /.navbar -->
+
+
+
+
+
+
+
+
+
+
+</header>
+<!-- /header -->
+
+<section class="wrapper hero-caravel overflow-hidden">
+  <div class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-lg-6 d-flex flex-column justify-content-center px-6 px-md-10 px-xl-16 py-12 py-lg-0">
+        <h1 class="hero-caravel-title mb-5">Mapping the hidden architecture <span class="text-caravel-coral">of the brain</span></h1>
+        <p class="hero-caravel-subtitle mb-8">CARAVEL develops reliable AI methods to extract, model and analyse the brain vessel tree across multiple imaging scales.</p>
+        <div class="d-flex flex-wrap gap-3">
+          
+          <a href="#research" class="btn btn-lg rounded-xl btn-caravel-primary btn-icon btn-icon-end">
+            Explore the project <i class="uil uil-arrow-right"></i>
+          </a>
+          
+          <a href="#team" class="btn btn-lg rounded-xl btn-caravel-outline">
+            Meet the team
+          </a>
+          
+        </div>
+      </div>
+      <div class="col-lg-6 hero-caravel-media">
+        
+        <video class="hero-caravel-img" autoplay="" muted="" playsinline="" poster="/assets/img/hero_image.png">
+          <source src="/assets/video/CARAVEL_hero_video.mp4" type="video/mp4" />
+        </video>
+        
+      </div>
     </div>
   </div>
-  <footer>
-    Funded by the European Union. This project has received funding from the European Research
-    Council (ERC) under the European Union's Horizon Europe research and innovation programme
-    (Grant Agreement No. 101171357). Views and opinions expressed are those of the researchers
-    only and do not necessarily reflect those of the European Union or the ERC.
-  </footer>
+</section>
+
+
+<section class="wrapper bg-soft-ash">
+  <div class="container py-6">
+    <div class="row justify-content-center align-items-center gx-10 gx-lg-16 gy-6 text-center">
+      
+      <div class="col-6 col-lg-auto">
+        <div class="partner-logo-wrap partner-logo-wrap-wide">
+          <img src="/assets/img/LOGO_ERC-FLAG_FP.png" alt="Funded by the European Union - European Research Council" class="partner-logo" />
+        </div>
+      </div>
+      
+      <div class="col-6 col-lg-auto">
+        <div class="partner-logo-wrap">
+          <img src="/assets/img/eurecom.png" alt="EURECOM Sophia Antipolis" class="partner-logo" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- /.container -->
+</section>
+
+
+
+<section id="news" class="wrapper bg-light">
+  <div class="container py-14 py-md-16">
+    <h2 class="d-flex align-items-center justify-content-center gap-2 news-heading mb-10 text-center">
+      <img src="/assets/img/brain-icon.png" alt="" class="news-section-icon" />
+      <span class="text-caravel-navy">CARAVEL Latest</span> <span class="text-caravel-coral">News</span>
+    </h2>
+    <div class="swiper-container blog grid-view mb-14" data-margin="30" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          
+          
+          <div class="swiper-slide">
+            <article>
+              <div class="news-card-img rounded mb-5">
+                <img src="/assets/img/news/miccai2026-logo.png" alt="CARAVEL paper accepted at MICCAI 2026" />
+              </div>
+              <div class="post-header d-flex align-items-center justify-content-between mb-3">
+                <span class="text-line text-caravel-coral text-uppercase fs-13 fw-bold">Publication</span>
+                <span class="news-card-date fs-13">12 May 2026</span>
+              </div>
+              <h3 class="h4 mb-3"><a class="link-dark" href="/news/caravel-paper-accepted-miccai-2026/">CARAVEL paper accepted at MICCAI 2026</a></h3>
+              <p class="news-card-text mb-3">Our latest work on cerebrovascular tree reconstruction has been accepted.</p>
+              <a href="/news/caravel-paper-accepted-miccai-2026/" class="news-card-link hover d-inline-flex align-items-center">Read more <i class="uil uil-arrow-right fs-16 ms-1"></i></a>
+            </article>
+          </div>
+          
+          <div class="swiper-slide">
+            <article>
+              <div class="news-card-img rounded mb-5">
+                <img src="/assets/img/news/miccai2025-logo.png" alt="CARAVEL at MICCAI 2025" />
+              </div>
+              <div class="post-header d-flex align-items-center justify-content-between mb-3">
+                <span class="text-line text-caravel-coral text-uppercase fs-13 fw-bold">Event</span>
+                <span class="news-card-date fs-13">28 April 2026</span>
+              </div>
+              <h3 class="h4 mb-3"><a class="link-dark" href="/news/caravel-at-miccai-2025/">CARAVEL at MICCAI 2025</a></h3>
+              <p class="news-card-text mb-3">We presented our recent results in Daejeon, Republic of Korea.</p>
+              <a href="/news/caravel-at-miccai-2025/" class="news-card-link hover d-inline-flex align-items-center">Read more <i class="uil uil-arrow-right fs-16 ms-1"></i></a>
+            </article>
+          </div>
+          
+          <div class="swiper-slide">
+            <article>
+              <div class="news-card-img rounded mb-5">
+                <img src="/assets/img/news/brain-blood-vessels.png" alt="PhD position on AI for brain vasculature" />
+              </div>
+              <div class="post-header d-flex align-items-center justify-content-between mb-3">
+                <span class="text-line text-caravel-coral text-uppercase fs-13 fw-bold">Opportunity</span>
+                <span class="news-card-date fs-13">10 April 2026</span>
+              </div>
+              <h3 class="h4 mb-3"><a class="link-dark" href="/news/phd-position-ai-brain-vasculature/">PhD position on AI for brain vasculature</a></h3>
+              <p class="news-card-text mb-3">Join our team and work on exciting research challenges.</p>
+              <a href="/news/phd-position-ai-brain-vasculature/" class="news-card-link hover d-inline-flex align-items-center">Read more <i class="uil uil-arrow-right fs-16 ms-1"></i></a>
+            </article>
+          </div>
+          
+        </div>
+        <!-- /.swiper-wrapper -->
+      </div>
+      <!-- /.swiper -->
+    </div>
+    <!-- /.swiper-container -->
+    <div class="text-center">
+      <a href="/news/" class="btn btn-caravel-outline rounded-xl">Show all</a>
+    </div>
+  </div>
+  <!-- /.container -->
+</section>
+
+
+
+<section id="research" class="wrapper research-caravel">
+  <div class="container py-14 py-md-16">
+    <h2 class="d-flex align-items-center justify-content-center gap-2 mb-10 text-center research-caravel-heading">
+      <img src="/assets/img/brain-icon.png" alt="" class="research-caravel-icon" />
+      <span class="fw-bold">CARAVEL</span> Research
+    </h2>
+    <div class="row justify-content-center text-center mb-8">
+      <div class="col-lg-8">
+        <h3 class="research-caravel-title mb-4">Understanding the cerebrovascular tree, <br /> from <span class="text-caravel-coral">image</span> to <span class="text-caravel-coral">insight</span>.</h3>
+        <p class="research-caravel-intro mx-auto mb-0">CARAVEL studies the cerebrovascular system using advanced imaging and trustworthy AI to extract, model and analyse brain vessel trees across multiple spatial scales.</p>
+      </div>
+    </div>
+    <div class="text-center mb-8">
+      <span class="research-caravel-focus text-line">Our research focuses on</span>
+    </div>
+    <div class="row align-items-center gy-6 gx-lg-8">
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="research-accordion-media">
+          <span class="research-accordion-media-badge" id="research-active-badge">01</span>
+          <img src="/assets/img/research_1.png" alt="" class="research-accordion-media-img" id="research-active-image" />
+          <p class="research-accordion-media-empty d-none" id="research-active-empty">Illustration coming soon</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div id="accordion-research" class="accordion-wrapper research-accordion">
+          
+          <div class="card accordion-item">
+            <div class="card-header" id="research-heading-1">
+              <button class="" data-bs-toggle="collapse" data-bs-target="#research-collapse-1" aria-expanded="true" aria-controls="research-collapse-1" data-research-image="/assets/img/research_1.png">
+                <span class="research-accordion-number">01</span>Brain vessel tree representation
+              </button>
+            </div>
+            <div id="research-collapse-1" class="collapse show" aria-labelledby="research-heading-1" data-bs-parent="#accordion-research">
+              <div class="card-body">
+                
+                <img src="/assets/img/research_1.png" alt="Brain vessel tree representation" class="research-accordion-inline-img d-lg-none" />
+                
+                <p class="mb-0">Building structured, multi-scale representations of the cerebrovascular network that capture its complexity and connectivity across imaging modalities.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card accordion-item">
+            <div class="card-header" id="research-heading-2">
+              <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#research-collapse-2" aria-expanded="false" aria-controls="research-collapse-2" data-research-image="/assets/img/research_2.png">
+                <span class="research-accordion-number">02</span>Segmentation &amp; Modeling
+              </button>
+            </div>
+            <div id="research-collapse-2" class="collapse" aria-labelledby="research-heading-2" data-bs-parent="#accordion-research">
+              <div class="card-body">
+                
+                <img src="/assets/img/research_2.png" alt="Segmentation &amp; Modeling" class="research-accordion-inline-img d-lg-none" />
+                
+                <p class="mb-0">Developing robust, trustworthy AI methods to detect, segment and model the brain vessel tree from neurovascular images.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card accordion-item">
+            <div class="card-header" id="research-heading-3">
+              <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#research-collapse-3" aria-expanded="false" aria-controls="research-collapse-3" data-research-image="/assets/img/research_3.png">
+                <span class="research-accordion-number">03</span>Neurovascular atlas construction
+              </button>
+            </div>
+            <div id="research-collapse-3" class="collapse" aria-labelledby="research-heading-3" data-bs-parent="#accordion-research">
+              <div class="card-body">
+                
+                <img src="/assets/img/research_3.png" alt="Neurovascular atlas construction" class="research-accordion-inline-img d-lg-none" />
+                
+                <p class="mb-0">Constructing a spatio-temporal atlas of the cerebral vascular system to capture anatomical variability across scales and populations.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card accordion-item">
+            <div class="card-header" id="research-heading-4">
+              <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#research-collapse-4" aria-expanded="false" aria-controls="research-collapse-4" data-research-image="/assets/img/research_4.png">
+                <span class="research-accordion-number">04</span>Clinical Usage
+              </button>
+            </div>
+            <div id="research-collapse-4" class="collapse" aria-labelledby="research-heading-4" data-bs-parent="#accordion-research">
+              <div class="card-body">
+                
+                <img src="/assets/img/research_4.png" alt="Clinical Usage" class="research-accordion-inline-img d-lg-none" />
+                
+                <p class="mb-0">Translating CARAVEL's methods into tools that support clinical decision-making and neurovascular risk assessment.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card accordion-item">
+            <div class="card-header" id="research-heading-5">
+              <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#research-collapse-5" aria-expanded="false" aria-controls="research-collapse-5" data-research-image="/assets/img/research_5.png">
+                <span class="research-accordion-number">05</span>Reproducibility &amp; open-source
+              </button>
+            </div>
+            <div id="research-collapse-5" class="collapse" aria-labelledby="research-heading-5" data-bs-parent="#accordion-research">
+              <div class="card-body">
+                
+                <img src="/assets/img/research_5.png" alt="Reproducibility &amp; open-source" class="research-accordion-inline-img d-lg-none" />
+                
+                <p class="mb-0">Releasing open datasets, code and benchmarks so the research community can validate, reuse and build on CARAVEL's results.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+</section>
+<script>
+(function () {
+  var accordion = document.getElementById('accordion-research');
+  var img = document.getElementById('research-active-image');
+  var empty = document.getElementById('research-active-empty');
+  var badge = document.getElementById('research-active-badge');
+  if (!accordion || !img) return;
+
+  // Bootstrap's collapse data-api handler runs on a document-level click
+  // listener, so a normal listener on the button (bubble/target phase)
+  // fires too late to stop it from closing an already-open item. A
+  // capture-phase document listener runs first and can block it.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('#accordion-research .card-header button');
+    if (btn && btn.getAttribute('aria-expanded') === 'true') {
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+    }
+  }, true);
+
+  // Swap the image off Bootstrap's own "shown" event instead of the click,
+  // since click-handler ordering relative to Bootstrap's own toggle isn't
+  // reliable, but this event only ever fires once a panel has actually
+  // finished opening. Cancel any still-pending swap first so clicking
+  // through several items quickly can't let an old timeout land last and
+  // clobber the most recent selection.
+  var swapTimeout = null;
+  var panels = accordion.querySelectorAll('.collapse');
+  panels.forEach(function (panel) {
+    panel.addEventListener('shown.bs.collapse', function () {
+      var btn = accordion.querySelector('[data-bs-target="#' + panel.id + '"]');
+      if (!btn) return;
+      var src = btn.getAttribute('data-research-image');
+      var number = btn.querySelector('.research-accordion-number').textContent;
+      if (swapTimeout) clearTimeout(swapTimeout);
+      img.classList.add('is-swapping');
+      swapTimeout = setTimeout(function () {
+        if (src) {
+          img.src = src;
+          img.classList.remove('d-none');
+          empty.classList.add('d-none');
+        } else {
+          img.classList.add('d-none');
+          empty.classList.remove('d-none');
+        }
+        badge.textContent = number;
+        img.classList.remove('is-swapping');
+        swapTimeout = null;
+      }, 200);
+    });
+  });
+})();
+</script>
+
+
+
+<section id="publications" class="wrapper bg-light">
+  <div class="container pt-14 pt-md-16 pb-8 pb-md-10">
+    <h2 class="d-flex align-items-center justify-content-center gap-2 mb-8 text-center publications-heading">
+      <img src="/assets/img/brain-icon.png" alt="" class="publications-icon" />
+      <span class="text-caravel-navy">CARAVEL</span> <span class="text-caravel-navy fw-bold">Publications</span>
+    </h2>
+    <div class="d-flex flex-wrap justify-content-center gap-3 mb-8">
+      
+      <button type="button" class="btn btn-sm rounded-pill pub-filter pub-filter-active" data-filter="all">All</button>
+      
+      <button type="button" class="btn btn-sm rounded-pill pub-filter" data-filter="journal">Journals</button>
+      
+      <button type="button" class="btn btn-sm rounded-pill pub-filter" data-filter="conference">Conferences</button>
+      
+      <button type="button" class="btn btn-sm rounded-pill pub-filter" data-filter="preprint">Preprints</button>
+      
+    </div>
+    <div class="pub-list">
+      
+      <div class="pub-row pub-row-border" data-type="conference">
+        <div class="pub-meta">
+          <span class="pub-date">Mon YYYY</span>
+          <span class="pub-tag">Conference</span>
+        </div>
+        <div class="pub-divider"></div>
+        <div class="pub-content">
+          <h3 class="pub-title mb-2">Title of the conference paper</h3>
+          <p class="pub-venue mb-0">Name of the conference (e.g. MICCAI 2026)</p>
+        </div>
+        <div class="pub-action">
+          <a href="https://link-to-the-paper" class="pub-link" target="_blank">
+            <i class="uil uil-file-alt"></i> View paper <i class="uil uil-arrow-up-right"></i>
+          </a>
+          
+          <a href="https://github.com/your-repo" class="pub-link" target="_blank" rel="noopener" aria-label="GitHub repository">
+            <i class="uil uil-github"></i> Code <i class="uil uil-arrow-up-right"></i>
+          </a>
+          
+        </div>
+      </div>
+      
+      <div class="pub-row pub-row-border" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-date">Mon YYYY</span>
+          <span class="pub-tag">Journal</span>
+        </div>
+        <div class="pub-divider"></div>
+        <div class="pub-content">
+          <h3 class="pub-title mb-2">Title of the journal paper</h3>
+          <p class="pub-venue mb-0">Name of the journal</p>
+        </div>
+        <div class="pub-action">
+          <a href="https://link-to-the-paper" class="pub-link" target="_blank">
+            <i class="uil uil-file-alt"></i> View paper <i class="uil uil-arrow-up-right"></i>
+          </a>
+          
+        </div>
+      </div>
+      
+      <div class="pub-row" data-type="preprint">
+        <div class="pub-meta">
+          <span class="pub-date">Mon YYYY</span>
+          <span class="pub-tag">Preprint</span>
+        </div>
+        <div class="pub-divider"></div>
+        <div class="pub-content">
+          <h3 class="pub-title mb-2">Title of the preprint</h3>
+          <p class="pub-venue mb-0">arXiv preprint</p>
+        </div>
+        <div class="pub-action">
+          <a href="https://link-to-the-paper" class="pub-link" target="_blank">
+            <i class="uil uil-file-alt"></i> View paper <i class="uil uil-arrow-up-right"></i>
+          </a>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- /.container -->
+</section>
+<script>
+(function () {
+  var section = document.getElementById('publications');
+  if (!section) return;
+  var buttons = section.querySelectorAll('.pub-filter');
+  var rows = section.querySelectorAll('.pub-row');
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('pub-filter-active'); });
+      btn.classList.add('pub-filter-active');
+      var filter = btn.getAttribute('data-filter');
+      rows.forEach(function (row) {
+        row.style.display = (filter === 'all' || row.getAttribute('data-type') === filter) ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
+
+
+
+<section id="team" class="wrapper bg-light">
+  <div class="container pt-8 pt-md-10 pb-14 pb-md-16">
+    <h2 class="d-flex align-items-center justify-content-center gap-2 mb-10 text-center team-heading">
+      <img src="/assets/img/brain-icon.png" alt="" class="team-icon" />
+      <span class="text-caravel-navy fw-bold">CARAVEL</span> <span class="text-caravel-navy">Team</span>
+    </h2>
+    <div class="text-center mb-10">
+      <h3 class="team-title mb-3">The people behind <span class="text-caravel-coral">CARAVEL</span></h3>
+      <p class="team-description mx-auto mb-0">A multidisciplinary team working together to advance the understanding of the brain vessel tree through imaging and computational methods.</p>
+    </div>
+
+    <div class="row gy-6">
+      <div class="col-lg-3">
+        <div class="team-card team-card-featured h-100">
+          <div class="team-avatar mb-5">
+            <img src="/assets/img/team/zuluaga.jpeg" alt="Maria A. Zuluaga" />
+          </div>
+          <h4 class="team-name mb-2">Maria A. Zuluaga</h4>
+          <p class="team-role mb-4">Professor at <a href="#">EURECOM</a> and Affiliate Faculty in the School of Biomedical Engineering &amp; Imaging Sciences at <a href="#">King's College London</a>.</p>
+          <div class="team-links">
+            <a href="#"><i class="uil uil-globe"></i></a>
+            <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            <a href="#"><i class="uil uil-graduation-cap"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- /column -->
+      <div class="col-lg-9 d-flex flex-column">
+        <div class="swiper-container grid-view mb-14" data-margin="24" data-nav="true" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide">
+                <div class="team-card h-100">
+                  <div class="team-avatar mb-5">
+                    
+                  </div>
+                  <h4 class="team-name mb-1">Name Surname</h4>
+                  <p class="team-role mb-4">PhD Student at EURECOM</p>
+                  <div class="team-links">
+                    <a href="#"><i class="uil uil-globe"></i></a>
+                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="#"><i class="uil uil-graduation-cap"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <div class="team-card h-100">
+                  <div class="team-avatar mb-5">
+                    
+                  </div>
+                  <h4 class="team-name mb-1">Name Surname</h4>
+                  <p class="team-role mb-4">PhD Student at EURECOM</p>
+                  <div class="team-links">
+                    <a href="#"><i class="uil uil-globe"></i></a>
+                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="#"><i class="uil uil-graduation-cap"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <div class="team-card h-100">
+                  <div class="team-avatar mb-5">
+                    
+                  </div>
+                  <h4 class="team-name mb-1">Name Surname</h4>
+                  <p class="team-role mb-4">PhD Student at EURECOM</p>
+                  <div class="team-links">
+                    <a href="#"><i class="uil uil-globe"></i></a>
+                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="#"><i class="uil uil-graduation-cap"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <div class="team-card h-100">
+                  <div class="team-avatar mb-5">
+                    
+                  </div>
+                  <h4 class="team-name mb-1">Name Surname</h4>
+                  <p class="team-role mb-4">PhD Student at EURECOM</p>
+                  <div class="team-links">
+                    <a href="#"><i class="uil uil-globe"></i></a>
+                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="#"><i class="uil uil-graduation-cap"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <!-- /.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+        <!-- /.swiper-container -->
+        <a href="mailto:maria.zuluaga@eurecom.fr" class="team-cta d-flex flex-wrap align-items-center justify-content-between gap-3 mt-auto">
+          <span class="d-flex align-items-center gap-3">
+            <i class="uil uil-users-alt team-cta-icon"></i>
+            <span class="team-cta-text">Interested in joining the team?</span>
+          </span>
+          <span class="team-cta-link">View open positions <i class="uil uil-arrow-up-right"></i></span>
+        </a>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+
+
+<section id="contacts" class="wrapper contacts-caravel overflow-hidden position-relative">
+  <img src="/assets/img/contact_image.png" alt="" class="contacts-caravel-bg" />
+  <div class="container py-14 py-md-16 position-relative">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="contacts-caravel-title mb-3">Get in touch</h2>
+        <p class="contacts-caravel-subtitle mb-9">Got any questions? Don't hesitate to get in touch.</p>
+        
+        <div class="d-flex mb-7">
+          <div class="contacts-caravel-icon me-4"><i class="uil uil-location-pin-alt"></i></div>
+          <div>
+            <h5 class="contacts-caravel-label mb-1">Address</h5>
+            
+            <p class="contacts-caravel-value mb-0">450 Route des Chappes - 06410 Biot, France</p>
+            
+          </div>
+        </div>
+        
+        <div class="d-flex mb-7">
+          <div class="contacts-caravel-icon me-4"><i class="uil uil-envelope"></i></div>
+          <div>
+            <h5 class="contacts-caravel-label mb-1">Email</h5>
+            
+            <a href="mailto:maria.zuluaga@eurecom.fr" class="contacts-caravel-value">maria.zuluaga@eurecom.fr</a>
+            
+          </div>
+        </div>
+        
+        <div class="d-flex mb-7">
+          <div class="contacts-caravel-icon me-4"><i class="uil uil-university"></i></div>
+          <div>
+            <h5 class="contacts-caravel-label mb-1">Institution</h5>
+            
+            <p class="contacts-caravel-value mb-0">EURECOM</p>
+            
+          </div>
+        </div>
+        
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+
+<footer class="caravel-footer">
+  <div class="container py-11 py-md-13">
+    <div class="row align-items-center gy-8">
+      <div class="col-lg-6">
+        <img src="/assets/img/caravel_logo_white.png" alt="CARAVEL" class="caravel-footer-logo mb-4" />
+        <p class="caravel-footer-copyright mb-0">&copy; 2026 CARAVEL. All rights reserved.</p>
+      </div>
+      <div class="col-lg-6 text-lg-end">
+        <nav class="caravel-footer-nav mb-4">
+          
+          
+          <a href="#research" class="scroll">Research</a>
+          
+          
+          
+          <a href="#news" class="scroll">News</a>
+          
+          
+          
+          <a href="#publications" class="scroll">Publications</a>
+          
+          
+          
+          <a href="#team" class="scroll">Team</a>
+          
+          
+          
+          <a href="#contacts" class="scroll">Contacts</a>
+          
+          
+        </nav>
+        <div class="caravel-footer-social">
+          
+          <a href="#"><i class="uil uil-globe"></i></a>
+          
+          <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+          
+          <a href="#"><i class="uil uil-graduation-cap"></i></a>
+          
+        </div>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</footer>
+
+</div>
+
+  <!-- Scroll To Top Button -->
+  
+<div class="progress-wrap active-progress">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 0px;"></path>
+    </svg>
+  </div>
+
+  <!-- Site Scripts-->
+  <script src="/assets/js/bootstrap.bundle.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/theme.js"></script>
+
 </body>
 </html>
